@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>МГА-ЛЕс</title>
+</head>
+
+<body>
+    <svg class="sprite">
+    <symbol viewBox="0 0 32 26" id="arrow">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M19.0406 0.292908C18.6501 -0.0976158 18.0169 -0.0976158 17.6264 0.292908C17.2359 0.683433 17.2359 1.3166 17.6264 1.70712L27.9193 12H1C0.447715 12 0 12.4477 0 13C0 13.5523 0.447715 14 1 14H27.9193L17.6264 24.2929C17.2359 24.6834 17.2359 25.3166 17.6264 25.7071C18.0169 26.0976 18.6501 26.0976 19.0406 25.7071L31.0406 13.7071C31.4311 13.3166 31.4311 12.6834 31.0406 12.2929L19.0406 0.292908Z" />
+    </symbol>
+</svg>
+    <header class="header">
+    <div class="container header__container">
+        <button class="burger header__burger" aria-label="открыть меню">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+        </button>
+        <a href="#" class="header__logo logo">
+            Мга лес
+        </a>
+        <nav class="header__menu menu">
+            <div class="menu__line" aria-hidden='true'></div>
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a href="#home" class="menu__link">
+                        Главная
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#about" class="menu__link">
+                        О нас
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#price-list" class="menu__link">
+                        Прайс-Лист
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#contacts" class="menu__link">
+                        Контакты
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="header__contacts">
+            <li class="header__item header__phone">
+                <a href="tel:+78000000000" class="header__link link">+7 (800) 000-00-00</a>
+            </li>
+            <li class="header__item header__addres">
+                <span>г. Москва, ул. Петровско разумовская, 145, оф. 34</span>
+            </li>
+        </ul>
+    </div>
+</header>
+    <div class="page">
+        <main class="page__wrapper">
+            <section data-hash="home" class="page__screen intro">
+    <div class="parralx intro__img">
+        <div class="parralx--wrapp" data-swiper-parallax="50%" data-swiper-parallax-duration="600">
+            <picture>
+                <source srcset="img/intro.webp" type="image/webp">
+                <img src="img/intro.png" class="parralx__img" alt="доски">
+            </picture>
+        </div>
+    </div>
+    <div class="intro__container container">
+        <h1 class="itnro__titel">
+            Производство пиломатериалов
+        </h1>
+        <div class="wrapp-text intro__text">
+            <p>
+                Изготовление и продажа обрезных досок и обрезных брусов и&#160;поставка по соответствующему <a
+                    href="https://docs.cntd.ru/document/1200004108" target="_blank"
+                    class="link">ГОСТу&#160;8486&#160;86</a>
+            </p>
+        </div>
+        <a href="#contacts" class="btn link--on-site">
+            <span class="btn__text">Связаться с нами</span>
+            <span class="btn__wrapp" aria-hidden="true">
+                <svg class="btn__icon">
+                    <use xlink:href="#arrow"></use>
+                </svg>
+            </span>
+        </a>
+    </div>
+</section>
+            <section data-hash="about" class="page__screen about">
+    <div class="container screen__content about__container">
+        <div class="about__content">
+            <h2>
+                Кто мы такие и чем занимемся
+            </h2>
+            <div class="wrapp-text">
+                <p>
+                    МГА ЛЕС основано в 17 июня 2014 года для изготавления и продажи пиломатериалов. Производственные
+                    мощности находятся в городе Нижние Серги, куда поставляется пиловочник. Пиломатериал доставляется
+                    длинномерами во все регионы России.
+                </p>
+            </div>
+        </div>
+        <div class="parralx about__img">
+            <div class="parralx--wrapp" data-swiper-parallax="50%" data-swiper-parallax-duration="600">
+                <picture>
+                    <source media="(max-width: 960px)" srcset="img/brus.jpg">
+                    <source srcset="img/about.webp" type="image/webp">
+                    <img src="img/about.png" class="parralx__img" alt="доски">
+                </picture>
+            </div>
+        </div>
+    </div>
+</section>
+            <section data-hash="price-list" class="page__screen price-list">
+    <div class="container price-list__container">
+        <div class="price-list__content">
+            <h2>
+                Прайс-Лист
+            </h2>
+            <div class="wrapp-text">
+                <p>
+                    Основной асортимент изготовляемой продукций указан в прайсе организаций, но так же
+                    мы изготовляем продукцию по индивидуальным размерам. Чтобы получить точный расчет
+                    стоимости закза необходимо направить вашу заявку на электроную почту, ответ
+                    гарантируем в течение 3 рабочих дней
+                </p>
+            </div>
+            <a href="doc/прайс-лист.docx" class="price-list__btn btn">
+                <span class="btn__text">Скачать прайс-лист</span>
+                <span class="btn__wrapp" aria-hidden="true">
+                    <svg class="btn__icon">
+                        <use xlink:href="#arrow"></use>
+                    </svg>
+                </span>
+            </a>
+        </div>
+        <ul class="grid price-list__grid">
+            <li class="parralx price-list__img">
+                <div class="parralx--wrapp" data-swiper-parallax="50%" data-swiper-parallax-duration="600">
+                    <picture>
+                        <source srcset="img/brus.webp" type="image/webp">
+                        <img src="img/brus.jpg" class="parralx__img" alt="доски">
+                    </picture>
+                </div>
+                <div class="price-list__desc" data-swiper-parallax-opacity="0">
+                    Брусья
+                </div>
+            </li>
+            <li class="parralx price-list__img">
+                <div class="parralx--wrapp" data-swiper-parallax="50%" data-swiper-parallax-duration="600">
+                    <picture>
+                        <source srcset="img/wood.webp" type="image/webp">
+                        <img src="img/wood.png" class="parralx__img" alt="доски">
+                    </picture>
+                </div>
+                <div class="price-list__desc" data-swiper-parallax-opacity="0">
+                    Дрова
+                </div>
+            </li>
+            <li class="parralx price-list__img">
+                <div class="parralx--wrapp" data-swiper-parallax="50%" data-swiper-parallax-duration="600">
+                    <picture>
+                        <source srcset="img/intro.webp" type="image/webp">
+                        <img src="img/intro.png" class="parralx__img" alt="доски">
+                    </picture>
+                </div>
+                <div class="price-list__desc" data-swiper-parallax-opacity="0">
+                    Доски обрезные
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+            <section data-hash="contacts" class="page__screen contacts">
+    <div class="parralx contacts__map">
+        <div class="parralx--wrapp" data-swiper-parallax="50%" data-swiper-parallax-duration="600">
+            <div id="maps" class="parralx__img"></div>
+        </div>
+    </div>
+    <div class="contacts__container container">
+        <div class="contacts__main">
+            <h2>
+                Контакты
+            </h2>
+            <ul class="contacts__list">
+                <li class="contacts__item contacts__phone">
+                    <a href="tel:+78000000000" class="link contacts__link">+7 (800) 000-00-00</a>
+                </li>
+                <li class="contacts__item contacts__addres">
+                    <span>
+                        г. Москва, ул. Петровско <br> разумовская, 145, оф. 34
+                    </span>
+                </li>
+                <li class="contacts__item contacts__mail">
+                    <a href="mailto:mga-les@mail.ru" target="_blank" class="link contacts__link">
+                        mga-les@mail.ru
+                    </a>
+                </li>
+                <li class="contacts__item contacts__clok">
+                    <span>
+                        Ежедневно с 9:00 до 20:00
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <form method="POST" action="https://send.pageclip.co/3Gjr5w17gtZJ5579u6ee3M2ptnB4nAVs" class="contacts__form">
+            <div class="row contacts__row">
+                <input type="tel" name="entry.2345234" required class="contacts__input" value=""
+                    placeholder="+7 856 955 88 33">
+                <button type="submit" class="btn contacts__btn">
+                    <span class="btn__text">Созванимся</span>
+                    <span class="btn__wrapp" aria-hidden="true">
+                        <svg class="btn__icon">
+                            <use xlink:href="#arrow"></use>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+            <span class="contacts__warning">
+                Нажамая на кнопку, вы соглашаетесь с <a href="doc/PL.pdf" target="_blank"
+                    class="link link--revers">условиями
+                    обработки
+                    персональных данных</a>
+            </span>
+        </form>
+    </div>
+</section>
+        </main>
+        <footer class="footer">
+    <div class="container footer__container">
+        <span class="copy">
+            ООО “МГА-ЛЕС”
+        </span>
+        <span class="developer">
+            Разработчик <a href="#" class="link link--revers">Редреев Сергей</a>
+        </span>
+    </div>
+</footer>
+    </div>
+
+
+
+
+    <script src="js/script.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlKBQxmKH2goQ7nzPmpE65 - zZSu9z - EXE&callback=initMap">
+        </script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+</body>
+
+</html>
